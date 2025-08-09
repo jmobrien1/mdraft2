@@ -132,3 +132,9 @@ coverage/
 lcov.info
 
 
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store

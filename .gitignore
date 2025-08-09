@@ -1,0 +1,134 @@
+# ---- Python / Flask ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / build artifacts
+build/
+dist/
+downloads/
+wheels/
+*.egg-info/
+.eggs/
+sdist/
+share/python-wheels/
+pip-wheel-metadata/
+pip-log.txt
+MANIFEST
+
+# Virtual environments
+.venv
+.venv*/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+.direnv/
+.envrc
+__pypackages__/
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+coverage.*.xml
+*.cover
+*.py,cover
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+.pyright/
+.ruff_cache/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Editors / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# ---- Node / Next.js ----
+node_modules/
+.next/
+.next/cache/
+out/
+.turbo/
+.eslintcache
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Environment files ----
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# ---- GCP credentials (service account & OAuth) ----
+# Avoid committing Google Cloud auth JSON files
+credentials.json
+client_secret.json
+client-secrets.json
+service-account.json
+service_account.json
+service-account-*.json
+service_account-*.json
+gcloud-*.json
+google-credentials*.json
+gcp-credentials*.json
+*.gcp-credentials.json
+*.gcloud-credentials.json
+*.service-account.json
+*.service_account.json
+*.key.json
+*.private-key.json
+*.firebase-adminsdk.json
+application_default_credentials.json
+google-application-credentials.json
+
+# Firebase (if present)
+.firebase/
+firebase-debug.log
+
+# Certificates / keys
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+
+# JavaScript/TypeScript coverage
+coverage/
+lcov.info
+
+
